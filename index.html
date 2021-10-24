@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41e0c00f0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main__header">
+        <nav>
+            <a href="index.html" class="header__logo cursor">
+                Bado<span style="color: #1e6f5c;">oom</span>
+            </a>
+            <div class="nav__bar" id="myDropdown">
+                <a href="index.html" class="nav__link active">Acasă</a>
+                <a href="catalog.html" class="nav__link">Cărți</a> 
+                <a href="login.html" class="nav__link">Cont</a>
+                <a href="contacts.html" class="nav__link">Contacte</a>
+            </div>
+            <div class="nav__features">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="account.html"><i class="fas fa-shopping-basket"></i></a>
+              
+                
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="intro__title">
+                <h1>NU EXISTĂ PRIETENI MAI <br> LOIALI DECÂT CĂRȚILE!</h1>
+                <p>Suntem cea mai mare librărie online și îi așteptăm pe toți iubitorii de carte. Cu noi visele devin realitate. Veni Vidi Amavi.</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features section">
+        <div class="container">
+            <div class="features__body">
+                <div class="features__item">
+                    <div class="features__icon book"><i class="fas fa-book-open"></i></div> 
+                    <h4 class="features__title">Mii de cărți</h4>
+                    <div class="features__text">Librăria dispune de mii de cărți din difertie categorii pentru toți cititoridornici de a citi și de a se scufunda în lumea cărților.</div>
+                </div>
+                <div class="features__item">
+                    <div class="features__icon pen"><i class="fas fa-pencil-alt"></i></div> 
+                    <h4 class="features__title">Sute de autori</h4>
+                    <div class="features__text">Cărțile librăriei sunt scrise de sute de autori, cu diferite viziuni pentru a fi cititite cu plăcere de orice om dornic de carte.</div>
+                </div>  
+                <div class="features__item">
+                    <div class="features__icon saved"><i class="fas fa-bookmark"></i></div> 
+            <h4 class="features__title">Ușor de salvat</h4>
+            <div class="features__text">În această librărie cărțile sunt ușor de salvat, pentru a putea reveni oricânddoresc cititorii pentru a-l vizualiza sau cumpăra.</div>
+                </div>  
+            </div>
+        </div>
+    </section>   
+
+    <!-- Popular books -->
+    <section class="popular section">
+        <div class="container">
+            <div class="popular__books">
+                <h2>Cărți populare...</h2>
+                <div class="products__slider">
+                    <a class="prev"><i class="fas fa-caret-left book"></i></a>
+                    <div class="slider">
+                        <div class="slider-container book slider-container-transition">
+                            <a class="slider__item grid" data-position="1">
+                                <span class="slider__item__img" style="background-image: url('img/popular1.png')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Temă pentru acasă</div>
+                                        <div class="slider__author">Nicolae Dabija</div>
+                                        <div class="slider__price"><span class="slider__priceNO">300,00 MDL</span>200,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det" onClick="window.location='carte_main.html';"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy" onClick="window.location='account.html';"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="2">
+                                <span class="slider__item__img" style="background-image: url('img/popular2.jpeg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title"> Povestea mea</div>
+                                        <div class="slider__author">Michelle Obama</div>
+                                        <div class="slider__price">49,90 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="3">
+                                <span class="slider__item__img" style="background-image: url('img/popular3.jpeg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Arta subtilă a nepăsării</div>
+                                        <div class="slider__author">Mark Manson</div>
+                                        <div class="slider__price">195,19 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="4">
+                                <span class="slider__item__img" style="background-image: url('img/popular4.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Institutul</div>
+                                        <div class="slider__author">Stephen King</div>
+                                        <div class="slider__price">59,9 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="5">
+                                <span class="slider__item__img" style="background-image: url('img/popular1.png')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Temă pentru acasă</div>
+                                        <div class="slider__author">Nicolae Dabija</div>
+                                        <div class="slider__price"><span class="slider__priceNO">300,00 MDL</span>200,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det" onClick="window.location='carte_main.html';"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy" onClick="window.location='account.html';"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="6">
+                                <span class="slider__item__img" style="background-image: url('img/popular2.jpeg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Povestea mea</div>
+                                        <div class="slider__author">Michelle Obama</div>
+                                        <div class="slider__price">49,90 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="7">
+                                <span class="slider__item__img" style="background-image: url('img/popular3.jpeg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Arta subtilă a nepăsării</div>
+                                        <div class="slider__author">Mark Manson</div>
+                                        <div class="slider__price">195,19 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="8">
+                                <span class="slider__item__img" style="background-image: url('img/popular4.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Institutul</div>
+                                        <div class="slider__author">Stephen King</div>
+                                        <div class="slider__price">59,9 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="next"><i class="fas fa-caret-right book"></i></a>    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- New Books -->
+    <section class="new popular section">
+        <div class="container">
+            <div class="popular__books">
+                <h2>Cărți noi...</h2>
+                <div class="products__slider">
+                    <a class="prev"  ><i class="fas fa-caret-left new"></i></a>
+                    <div class="slider">
+                        <div class="slider-container--new slider-container-transition">
+                            <a class="slider__item grid" data-position="1">
+                                <span class="slider__item__img" style="background-image: url('img/new1.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Libertie</div>
+                                        <div class="slider__author">Kaitlyn Greenfige</div>
+                                        <div class="slider__price">457,20 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="2">
+                                <span class="slider__item__img" style="background-image: url('img/new2.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Infinite Country</div>
+                                        <div class="slider__author">Patricia Engel</div>
+                                        <div class="slider__price">120,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="3">
+                                <span class="slider__item__img" style="background-image: url('img/new3.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Fata de pe stâncă</div>
+                                        <div class="slider__author">Lucinda Riley</div>
+                                        <div class="slider__price">230,19 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="4">
+                                <span class="slider__item__img" style="background-image: url('img/new4.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">In the Quick</div>
+                                        <div class="slider__author">Kate Hope Day</div>
+                                        <div class="slider__price">70,59 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="5">
+                                <span class="slider__item__img" style="background-image: url('img/new1.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Libertie</div>
+                                        <div class="slider__author">Kaitlyn Greenfige</div>
+                                        <div class="slider__price">120,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="6">
+                                <span class="slider__item__img" style="background-image: url('img/new2.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Infinite Country</div>
+                                        <div class="slider__author">Patricia Engel</div>
+                                        <div class="slider__price">200,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="7">
+                                <span class="slider__item__img" style="background-image: url('img/new3.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Fata de pe stâncă</div>
+                                        <div class="slider__author">Lucinda Riley</div>
+                                        <div class="slider__price">230,19 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="8">
+                                <span class="slider__item__img" style="background-image: url('img/new4.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">In the Quick</div>
+                                        <div class="slider__author">Kate Hope Day</div>
+                                        <div class="slider__price">70,59 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="next"><i class="fas fa-caret-right new"></i></a>    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Book collections -->
+    <section class="collection popular section">
+        <div class="container">
+            <div class="popular__books">
+                <h2>Colecții de cărți...</h2>
+                <div class="collection_slide">
+                    <div class="collection_item" style="background-image: url('img/collection1.png');">
+                        <div class="collection_header">
+                            <div class="collection_container">
+                                <button class="collection_off">50 % OFF</button>
+                                <div class="collection_text">Vacanță pe canapea</div>
+                                <button class="collection_want">O vreau în coș</button>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="collection_item" style="background-image: url('img/collection2.png');">
+                        <div class="collection_header">
+                            <div class="collection_container">
+                                <button class="collection_off two">70 % OFF</button>
+                                <div class="collection_text">Câte de toate</div>
+                                <button class="collection_want">O vreau în coș</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+        
+                    <div class="collection_item" style="background-image: url('img/collection3.png');">
+                        <div class="collection_header">
+                            <div class="collection_container">
+                                <button class="collection_off three">60 % OFF</button>
+                                <div class="collection_text">Împreună cu tine</div>
+                                <button class="collection_want">O vreau în coș</button>
+                            </div>
+                        </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited offer -->
+    <section class="limited__offer popular section">
+        <div class="container">
+            <div class="popular__books">
+                <h2>Ofertă limitată...</h2>
+                <div class="count">
+                    <div class="count_boxes">
+                        <div class="count_item">
+                            <span class="count_number days" id="days"></span><br><span class="count_number text">ZILE</span>
+                        </div>
+                        <div class="count_item">
+                            <span class="count_number hours" id="hours"></span><br><span class="count_number text">ORE</span>
+                        </div>
+                        <div class="count_item">
+                            <span class="count_number min" id="min"></span><br><span class="count_number text">MIN</span>
+                        </div>
+                        <div class="count_item">
+                            <span class="count_number sec" id="sec"></span><br><span class="count_number text">SEC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__slider">
+                    <a class="prev"><i class="fas fa-caret-left limited"></i></a>
+                    <div class="slider">
+                        <div class="slider-container--limited slider-container-transition">
+                            <a class="slider__item grid" data-position="1">
+                                <span class="slider__item__img" style="background-image: url('img/limited1.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">The Push</div>
+                                        <div class="slider__author">Ashley Audrain</div>
+                                        <div class="slider__price"><span class="slider__priceNO">300,00 MDL</span>245,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="2">
+                                <span class="slider__item__img" style="background-image: url('img/limited2.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Summerwater</div>
+                                        <div class="slider__author">Sarah Moss</div>
+                                        <div class="slider__price"><span class="slider__priceNO">180,95 MDL</span>120,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="3">
+                                <span class="slider__item__img" style="background-image: url('img/limited3.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">The Removed</div>
+                                        <div class="slider__author">Brandon Habson</div>
+                                        <div class="slider__price"><span class="slider__priceNO">460,29 MDL</span>395,19 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="4">
+                                <span class="slider__item__img" style="background-image: url('img/limited4.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Girl A</div>
+                                        <div class="slider__author">Anigail Dean</div>
+                                        <div class="slider__price"><span class="slider__priceNO">120,19 MDL</span>95,95 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="5">
+                                <span class="slider__item__img" style="background-image: url('img/limited1.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">The Push</div>
+                                        <div class="slider__author">Ashley Audrain</div>
+                                        <div class="slider__price"><span class="slider__priceNO">300,00 MDL</span>245,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="6">
+                                <span class="slider__item__img" style="background-image: url('img/limited2.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Summerwater</div>
+                                        <div class="slider__author">Sarah Moss</div>
+                                        <div class="slider__price"><span class="slider__priceNO">180,95 MDL</span>120,00 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="7">
+                                <span class="slider__item__img" style="background-image: url('img/limited3.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">The Removed</div>
+                                        <div class="slider__author">Brandon Habson</div>
+                                        <div class="slider__price"><span class="slider__priceNO">460,29 MDL</span>395,19 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                            <a class="slider__item grid" data-position="8">
+                                <span class="slider__item__img" style="background-image: url('img/limited4.jpg')"></span>
+                                    <span class="slider__item__content">
+                                        <div class="slider__title">Girl A</div>
+                                        <div class="slider__author">Anigail Dean</div>
+                                        <div class="slider__price"><span class="slider__priceNO">120,19 MDL</span>95,95 MDL</div>
+                                        <div class="slider__footer">
+                                            <div class="btn-group">
+                                                <button class="button det"><i class="fas fa-paper-plane"></i>DETALII</Del></button>
+                                                <button class="button buy"><i class="fas fa-shopping-cart"></i>CUMPĂRĂ</button>
+                                            </div>
+                                        </div>
+                                    </span>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="next"><i class="fas fa-caret-right limited"></i></a>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authors -->
+    <section class="authors popular section">
+        <div class="container">
+            <div class="popular__books">
+                <h2>Autori preferați...</h2>
+                
+
+                <div class="products__slider">
+                    <a class="prev"><i class="fas fa-caret-left authors"></i></a>
+                    <div class="slider">
+                        <div class="slider-container_a authors slider-container-transition">
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author1.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Mircea</div>
+                                    <div class="slider__surname">Cărtărescu</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author2.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Nicolae</div>
+                                    <div class="slider__surname">Dabija</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author3.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Mark</div>
+                                    <div class="slider__surname">Twain</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author4.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Jeff</div>
+                                    <div class="slider__surname">Keller</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author1.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Mircea</div>
+                                    <div class="slider__surname">Cărtărescu</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author2.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Nicolae</div>
+                                    <div class="slider__surname">Dabija</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author3.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Mark</div>
+                                    <div class="slider__surname">Twain</div>
+                                </span>
+                            </a>
+                            <a href="#" class="slider__item__a grid">
+                                <span class="slider__item__img__a" style="background-image: url('img/author4.png')"></span>
+                                <span class="slider__item__content__a">
+                                    <div class="slider__name">Jeff</div>
+                                    <div class="slider__surname">Keller</div>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="next"><i class="fas fa-caret-right authors"></i></a>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner grid">
+                <div class="footer__block">
+                    <h4 class="footer__title">ADRESĂ</h4>
+                    <address class="footer__address">
+                        <div>str. Ion Creangă 13/12</div>
+                        <div>mun. Chiținău, R.Moldova</div>
+                    </address>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">Share with Love</h4>
+                    <div class="footer_social">
+                        <a class="footer_social__item" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a class="footer_social__item" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        <a class="footer_social__item" href="https://mobile.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">DESPRE NOI</h4>
+                    <div class="footer__text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text">
+                    <div>Copyright © 2021 Bado<span style="color: #1e6f5c;">oom</span> All Rights Reserved</div>
+                    <div>Made <span>by Iachimova Diana</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+
+    <script src="main.js"></script>
+    
+    
+</body>
+</html>
