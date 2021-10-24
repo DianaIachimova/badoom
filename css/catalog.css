@@ -1,0 +1,469 @@
+@import url("./navbar_footer.css");
+
+
+.section h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title {
+    background-color: #363637;
+    color: #f2f2f3;
+}
+
+.title p {
+    
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Filters horizontal */
+.filters__content {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    display: flex;
+}
+
+.filters__option {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background-color: #edf3f4;
+    outline: none;
+    border: 1px solid #ccc;
+    color: #141418;
+    width:25%;
+}
+::placeholder {
+    color: #141418;
+}
+
+.filters__option.button {
+    display: inline-block;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    background-color: #363637;
+    padding: 15px 55px;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "raleway-extra-bold", sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    transition: background-color .1s ease;
+    cursor: pointer;
+}
+
+.filters__option.button:focus, .filters__option.button:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.filters__option.button:hover  {
+    background-color: #1e6f5c;
+}
+
+/* Main */
+.main{
+     background-color: #edf3f4;
+     padding-bottom: 70px;
+}
+
+.main_inner{
+    grid-template-columns: 1fr 20%;
+    grid-gap: 30px;
+    padding-top: 50px;
+    
+}
+
+.main_items_grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    row-gap: 30px;
+}
+/* Popular books */
+
+ .container {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 5px;
+}
+
+
+
+.slider__item {
+    height: 528px;
+	text-align: center;
+	text-decoration: none;
+    padding: 13px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+   
+  
+}
+
+/* ------------------- */
+
+
+.slider__item:hover {
+    transform: scale(1.03);
+}
+
+.slider__item__img {
+    height: 340px;
+    width: 238px;
+    border: 8px solid white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slider__item__content {
+    padding: 25px 10px 10px 10px;
+    text-align: center;
+    align-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #2D3033;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider__title {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.slider__author {
+  font-style: italic;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.slider__price {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.slider__priceNO {
+    text-decoration: line-through;
+    font-weight: 300;
+    margin-right: 7px;
+    font-size: 14px;
+}
+
+.slider__footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+.btn-group .button {
+    border-radius: 0;
+  }
+  
+.btn-group .button:first-child {
+    border-radius: 45px 0 0 45px;
+}
+
+
+.btn-group .button:last-child {
+    border-radius: 0 45px 45px 0;
+    margin-left: -4px;
+}
+
+.button {
+    padding: 7px 18px;
+    background-color: transparent;
+    border: 0.5px #bfc7c8 solid;
+}
+  
+
+.det, .buy {
+    text-transform: uppercase; 
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.det i, .buy i {
+    color: #bfc7c8;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+}
+.button.det:hover, .button.buy:hover,
+.button:active, .button i:active {
+    color: white;
+    background-color: #1e6f5c;
+    border-color: #1e6f5c;
+    
+}
+
+
+.filter_items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.filter{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+}
+
+.filter_header{
+    display: grid;
+    grid-template-columns: 1fr 10%;
+    font-size: 18px;
+    font-weight: 700;
+    /* gap: 115px; */
+    padding: 12px 10px;
+    padding-top: 18px;
+    padding-left: 16px;
+}
+
+.filter_header i{
+    font-size: 20px;
+    font-weight: 700;
+    
+
+}
+
+.select_filter{
+
+    border: 0.8px #bfc7c8 solid;
+    background-color: transparent;
+    border-radius: 200px;
+    padding: 5px 18px;
+    color: #141418;
+    
+}
+
+.filter_cotent{
+    text-align: center;
+    margin: auto;
+    padding-top: 13px;
+ 
+}
+
+
+
+
+/* third*/
+.filter_cotent.third{
+    text-align: left;
+    padding-left: 20px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.b-contain {
+    display: flex;
+    align-items: center;
+}
+
+.b-contain span {
+    font-size: 16px;
+    padding-left: 7px;
+}
+
+.b-contain input[type="checkbox"] ~ .b-input {
+	height: 1rem;
+	width: 1rem;
+}
+
+.border{
+    width: 100%;
+    height: 1px;
+    background-color: #a3a3a3;
+    
+}
+
+.filter_cotent.books{
+display: flex;
+justify-content: space-between;
+padding-left: 18px;
+}
+
+.filter_item_books{
+    width: 60%;
+    margin-top: 20px;
+   
+}
+
+
+.filter_item_books.one {
+    height: 130px;
+    width: 98px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.filter_item_books.two{
+    padding-top: 15px;
+    color: #2D3033;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.filter_item_title{
+padding-bottom: 5px;
+line-height: 1.4;
+font-weight: 600;
+}
+.filter_item_author{
+padding-bottom: 5px;
+line-height: 1.4;
+font-weight: 400;
+font-style: italic;
+}
+.filter_item_stars{
+    padding-bottom: 10px;
+    color: gold;
+}
+.filter_item_review{
+    padding-bottom: 5px;
+    font-size:12px;
+}
+
+.baar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slider_bar{
+    background-color: #edf3f4;
+    padding-bottom: 70px;
+}
+
+.baar{
+    color: #2D3033;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.numbers{
+    display: flex ;
+    ;
+}
+.numbers a{
+    text-decoration: none;
+}
+
+.numbers_one, .numbers_two, .numbers_three,.numbers_four,.numbers_five {
+    border: 1px solid #bfbfbf;
+    padding: 10px 10px;
+}
+
+.numbers_one.active, .numbers_two.active, .numbers_three.active,.numbers_four.active,.numbers_five.active {
+background-color: #1e6f5c;
+color: white;
+}
+.numbers_one:hover, .numbers_two:hover, .numbers_three:hover,.numbers_four:hover,.numbers_five:hover {
+    background-color: #1e6f5c;
+    color: white;
+    }
+
+.next i, .prev i{
+    font-size: 40px;
+}
+
+input[type='range'] {
+    width: 210px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+  }
+  input[type='range'],
+  input[type='range']::-webkit-slider-runnable-track,
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+      background: none;
+  }
+  input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 1px;
+    background: #003D7C;
+  }
+  
+  input[type='range']:nth-child(2)::-webkit-slider-runnable-track{
+    background: none;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-top: -7px;
+    background: #fff;
+    border: 1px solid #003D7C;
+    border-radius: 25px;
+    z-index: 1;
+  }
+  
+  
+  input[type='range']:nth-child(1)::-webkit-slider-thumb{
+    z-index: 2;
+  }
+  
+  .rangeslider{
+      
+      position: relative;
+      height: 60px;
+      width: 210px;
+      display: inline-block;
+      margin-top: -5px;
+      margin-left: -110px;
+  }
+  .rangeslider input{
+      position: absolute;
+  }
+  .rangeslider{
+      position: absolute;
+  }
+  
+  .rangeslider span{
+      position: absolute;
+      margin-top: 30px;
+      left: 0;
+  }
+  
+  .rangeslider .right{
+     position: relative;
+     float: right;
+     margin-right: -5px;
+  }
+  
+  
+  .filter_cotent.count{
+     padding-bottom: 50px;
+  }
+
+  .min, .max{
+      margin-left: -100px;
+  }
+
+.range_min, .range_max{
+    font-family: 'Roboto', sans-serif;
+}

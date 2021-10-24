@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41e0c00f0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/product.css">
+    <title>Produs</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main__header">
+        <nav>
+            <a href="index.html" class="header__logo cursor">
+                Bado<span style="color: #1e6f5c;">oom</span>
+            </a>
+            <div class="nav__bar">
+                <a href="index.html" class="nav__link ">Acasă</a>
+                <a href="catalog.html" class="nav__link">Cărți</a> 
+                <a href="account.html" class="nav__link active">Cont</a>
+                <a href="contacts.html" class="nav__link">Contacte</a>
+            </div>
+            <div class="nav__features">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- Title -->
+    <section class="title section">
+        <div class="container">
+            <h2>CONT</h2>
+            <p>Cu libertate, cărți și luna, cine nu ar fi fericit?</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters section">
+        <div class="container">
+            <div class="filters__content grid">
+                <input class="filters__option" type="text" name="denumire" id="denumire" placeholder="Denumire">
+                <select class="filters__option cursor" name="categorie" id="categorie">
+                    <option value="" disabled selected>Categorie</option>
+                </select>
+                <select class="filters__option cursor" name="autor" id="autor">
+                    <option value="" disabled selected>Autor</option>
+                </select>
+                <input type="submit" value="CAUTĂ" class="button">
+            </div>
+        </div>
+    </section>
+
+    <section class="slideshow section">
+        <div class="container">
+            <div id="slider-container" class="slider-container-transition">
+                <div class="slider-item" data-position="2" style="background-image: url('img/new1.jpg');"></div>
+                <div class="slider-item" data-position="3" style="background-image: url('img/new2.jpg');"></div>
+                <div class="slider-item" data-position="4" style="background-image: url('img/new3.jpg');"></div>
+                <div class="slider-item" data-position="5" style="background-image: url('img/new4.jpg');"></div>
+                <div class="slider-item" data-position="6" style="background-image: url('img/new1.jpg');"></div>
+                <div class="slider-item" data-position="7" style="background-image: url('img/new2.jpg');"></div>
+                <div class="slider-item" data-position="8" style="background-image: url('img/new3.jpg');"></div>
+                <div class="slider-item" data-position="9" style="background-image: url('img/new4.jpg');"></div>
+            </div>
+            
+            <div class="slide grid img-zoom-container">
+                <img id="full-image" src="img/popular1.png">
+                <div id="magnified-image"></div>
+            </div>
+        </div>
+    </section>   
+    
+    <!-- Description -->
+    <section class="description section">
+        <div class="container">
+            <div class="description__content grid">
+                <div class="det__button">
+                    <a href="#">Detalii</a>
+                </div>
+                <div class="desc__button">
+                    <a href="#">Descriere</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner grid">
+                <div class="footer__block">
+                    <h4 class="footer__title">ADRESĂ</h4>
+                    <address class="footer__address">
+                        <div>str. Ion Creangă 13/12</div>
+                        <div>mun. Chiținău, R.Moldova</div>
+                    </address>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">Share with Love</h4>
+                    <div class="footer_social">
+                        <a class="footer_social__item" href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a class="footer_social__item" href="#" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        <a class="footer_social__item" href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">DESPRE NOI</h4>
+                    <div class="footer__text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text">
+                    <div>Copyright © 2021 Bado<span style="color: #1e6f5c;">oom</span> All Rights Reserved</div>
+                    <div>Made <span>by Iachimova Diana</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41e0c00f0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/contacts.css">
+    <title>Contacte</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main__header">
+        <nav>
+            <a href="index.html" class="header__logo cursor">
+                Bado<span style="color: #1e6f5c;">oom</span>
+            </a>
+            <div class="nav__bar">
+                <a href="index.html" class="nav__link ">Acasă</a>
+                <a href="catalog.html" class="nav__link">Cărți</a> 
+                <a href="login.html" class="nav__link">Cont</a>
+                <a href="contacts.html" class="nav__link active">Contacte</a>
+            </div>
+            <div class="nav__features">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="account.html"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- Title -->
+    <section class="title section">
+        <div class="container">
+            <h2>CONT</h2>
+            <p>Cu libertate, cărți și luna, cine nu ar fi fericit?</p>
+        </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="contacts section">
+        <div class="container">
+            <div class="contacts__content grid">
+                <div class="contacts__form" style="background-color: #fff;">
+                    <h2>Trimite-ne un mesaj</h2>
+                    <form action="" method="post" onsubmit="alert('Multumesc de mesaj');">
+                        <div class="first__row">
+                            <label for="nume__prenume">Numele, Prenumele</label>
+                            <label for="email">E-mail</label>
+                            <input class="contacts__item" type="text" name="nume__prenume" id="nume__prenume" required>
+                            
+                            <input class="contacts__item" type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"  required>
+                        </div>
+                        <div class="second__row">
+                            <label for="subiect">Subiect</label>
+                            <input class="contacts__item" type="text" name="subiect" id="subiect" required>
+                        </div>
+
+                        <div class="third__row">
+                            <label for="mesaj">Mesaj</label>
+                            <textarea class="contacts__item" name="mesaj" id="mesaj" cols="30" rows="10" required></textarea>
+                        </div>
+                        <div class="contacts__button">
+                            <input class="button cursor" type="submit" value="Trimite">
+                        </div>
+                        
+                    </form>
+                </div>
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=2048&amp;height=223&amp;hl=en&amp;q=str.IonCreanga13/2&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/"></a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:865px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:865px;}.gmap_iframe {height:100%!important;}</style></div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Data -->
+    <section class="data section">
+        <div class="container">
+            <div class="data__content">
+                <div class="data__item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Adresă</h4>
+                    <p>str. Ion Creangă 13/2</p>
+                </div>
+                <div class="data__item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Telefon</h4>
+                    <p>+37389038292922</p>
+                </div>
+                <div class="data__item">
+                    <i class="fab fa-telegram-plane"></i>
+                    <h4>Email</h4>
+                    <p>badoom@gmail.com</p>
+                </div>
+                <div class="data__item">
+                    <i class="fas fa-globe-americas"></i>
+                    <h4>Web</h4>
+                    <p>badoom_staff.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner grid">
+                <div class="footer__block">
+                    <h4 class="footer__title">ADRESĂ</h4>
+                    <address class="footer__address">
+                        <div>str. Ion Creangă 13/12</div>
+                        <div>mun. Chiținău, R.Moldova</div>
+                    </address>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">Share with Love</h4>
+                    <div class="footer_social">
+                        <a class="footer_social__item" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a class="footer_social__item" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        <a class="footer_social__item" href="https://mobile.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">DESPRE NOI</h4>
+                    <div class="footer__text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text">
+                    <div>Copyright © 2021 Bado<span style="color: #1e6f5c;">oom</span> All Rights Reserved</div>
+                    <div>Made <span>by Iachimova Diana</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

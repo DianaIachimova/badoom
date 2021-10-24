@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41e0c00f0a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Log In</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main__header">
+        <nav>
+            <a href="index.html" class="header__logo cursor">
+                Bado<span style="color: #1e6f5c;">oom</span>
+            </a>
+            <div class="nav__bar">
+                <a href="index.html" class="nav__link ">Acasă</a>
+                <a href="catalog.html" class="nav__link">Cărți</a> 
+                <a href="login.html" class="nav__link active">Cont</a>
+                <a href="contacts.html" class="nav__link">Contacte</a>
+            </div>
+            <div class="nav__features">
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="account.html"><i class="fas fa-shopping-basket"></i></a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- Title -->
+    <section class="title section">
+        <div class="container">
+            <h2>CONT</h2>
+            <p>Cu libertate, cărți și luna, cine nu ar fi fericit?</p>
+        </div>
+    </section>
+
+    <!-- Login -->
+    <section class="login section">
+        <div class="container">
+            <div class="login__content grid">
+                <div class="login__form" style="background-color: #fff;">
+                    <h2>Logare</h2>
+                    <form action="account.html" method="post">
+                        <input class="login__item" type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="Atentie">
+                        <input class="login__item" type="password" name="parola" id="parola" placeholder="Parola" required>
+                        <div class="login__button">
+                            <input class="button cursor" type="submit" value="Sign In">
+                        </div>
+                        <a href="#" class="forgot__password">Ai uitat parola?</a>
+                        <div class="social__net">
+                            <div class="line"></div>
+                            <span>sau conectează cu</span>
+                            <div class="line"></div>
+                            <a href="https://mobile.twitter.com/" class=" twitter" target="_blank"><i class="fab fa-twitter"></i>twitter</a>
+                            <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i>facebook</a>
+                            <a href="https://gmail.com/" class="gmail" target="_blank"><i class="fab fa-google"></i>gmail</a>
+                        </div>
+                    </form>
+                    
+                </div>
+                
+                <div class="login__img" style="background-image: url('../badooom/img/login.png');"> </div>
+                <div class="overlay">
+                    <h2>Nou aici?</h2>
+                    <div class="register__button">
+                        <a href="register.html" class="button">Creează un cont</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner grid">
+                <div class="footer__block">
+                    <h4 class="footer__title">ADRESĂ</h4>
+                    <address class="footer__address">
+                        <div>str. Ion Creangă 13/12</div>
+                        <div>mun. Chiținău, R.Moldova</div>
+                    </address>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">Share with Love</h4>
+                    <div class="footer_social">
+                        <a class="footer_social__item" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a class="footer_social__item" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        <a class="footer_social__item" href="https://mobile.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer__block">
+                    <h4 class="footer__title">DESPRE NOI</h4>
+                    <div class="footer__text">
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text">
+                    <div>Copyright © 2021 Bado<span style="color: #1e6f5c;">oom</span> All Rights Reserved</div>
+                    <div>Made <span>by Iachimova Diana</span></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function check(){
+            
+        }
+    </script>
+</body>
+</html>
